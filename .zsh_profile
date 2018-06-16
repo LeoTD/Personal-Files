@@ -1,0 +1,19 @@
+
+alias gs='git status --column'
+alias gl='git log --oneline'
+alias glp="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(magenta)<%an>%Creset%n' --abbrev-commit --date=relative --branches"
+alias ga='git add'
+alias gam='git add -u'
+alias gco='git checkout'
+alias gcb='git checkout -b'
+alias grh='git reset HEAD'
+alias gcm='git commit -m'
+alias gra='git remote add origin'
+alias gpu='git push -u'
+alias gsi='git submodule update --init --recursive'
+
+alias addalias='vim ~/.zsh_profile'
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
