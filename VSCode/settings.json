@@ -1,0 +1,15 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.renderWhitespace": "boundary",
+	"editor.trimAutoWhitespace": true,
+	"editor.useTabStops": true,
+	"files.trimTrailingWhitespace": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"update.enableWindowsBackgroundUpdates": false,
+	"update.channel": "none",
+	"terminal.external.osxExec": "Terminal.app",
+	"vim.mouseSelectionGoesIntoVisualMode": false
+}
