@@ -11,5 +11,7 @@
 	"update.enableWindowsBackgroundUpdates": false,
 	"update.channel": "none",
 	"terminal.external.osxExec": "Terminal.app",
-	"vim.mouseSelectionGoesIntoVisualMode": false
+	"vim.mouseSelectionGoesIntoVisualMode": false,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true
 }

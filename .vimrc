@@ -15,7 +15,6 @@ endif
 call plug#begin('~/.vim/plugged')
 "Plug 'vim-syntastic/syntastic'
 Plug 'itchyny/lightline.vim'
-Plug 'tpope/vim-commentary'
 call plug#end()
 
 " -------------------- Standard Vim config
@@ -55,6 +54,7 @@ set number
 map <F6> :set relativenumber!<CR>
 map <F5> :set list!<CR>
 set pastetoggle=<F4>
+map <F12> :cd %:p:h<CR>
 
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search
